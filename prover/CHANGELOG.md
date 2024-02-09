@@ -1,5 +1,26 @@
 # Changelog
 
+## [11.1.0](https://github.com/matter-labs/zksync-era/compare/prover-v11.0.0...prover-v11.1.0) (2024-02-09)
+
+
+### Features
+
+* **db:** Soft-remove `storage` table ([#982](https://github.com/matter-labs/zksync-era/issues/982)) ([601f893](https://github.com/matter-labs/zksync-era/commit/601f893b98613222422961b95473560445e34637))
+* Prover interface and L1 interface crates ([#959](https://github.com/matter-labs/zksync-era/issues/959)) ([4f7e107](https://github.com/matter-labs/zksync-era/commit/4f7e10783afdff67a24246f17f03b536f743352d))
+
+
+### Bug Fixes
+
+* fix link ([#1007](https://github.com/matter-labs/zksync-era/issues/1007)) ([f1424ce](https://github.com/matter-labs/zksync-era/commit/f1424ced16b5609e736d9075ef1339b955154260))
+* **prover:** QoL socket utilization ([#1020](https://github.com/matter-labs/zksync-era/issues/1020)) ([13a6816](https://github.com/matter-labs/zksync-era/commit/13a68160c0562d27fd3688dc57fb7730e42ea4db))
+
+
+### Performance Improvements
+
+* bump harness version ([#1003](https://github.com/matter-labs/zksync-era/issues/1003)) ([1cbb4c9](https://github.com/matter-labs/zksync-era/commit/1cbb4c9bb77a63494e30cb13b07c70712e3741c2))
+* reduce memory consumption of witness generation ([#696](https://github.com/matter-labs/zksync-era/issues/696)) ([dea6768](https://github.com/matter-labs/zksync-era/commit/dea676832bcd54a4adc8998f309fed42f098a529))
+* use jemalloc in witness generator ([#1014](https://github.com/matter-labs/zksync-era/issues/1014)) ([917b2dc](https://github.com/matter-labs/zksync-era/commit/917b2dc9bfbb2b2d29145ade787febbb569a4b11))
+
 ## [11.0.0](https://github.com/matter-labs/zksync-era/compare/prover-v10.1.0...prover-v11.0.0) (2024-01-29)
 
 
